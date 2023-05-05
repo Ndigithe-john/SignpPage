@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  position: fixed;
+}
+h4 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.form_div {
+  width: 680px;
+  text-align: left;
+  margin: 0px 300px;
+}
+.form_div input {
+  /* display: block; */
+  /* width: 80%; */
+  padding-top: 15px;
+  border-radius: 6px;
+  background-color: rgba(119, 118, 118, 0.082);
+}
+.form_div label {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+.checkbox {
+  text-align: left;
+  padding-left: 20px;
+}
+.create_Button {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 128, 0, 0.411);
+  width: 97%;
+  padding: 15px 0px;
+  border: none;
+  border-radius: 12px;
+}
+.p {
+  display: inline;
+}
+.input {
+  width: 97%;
+  border-width: 2px;
+  outline: none;
+  box-shadow: 0 0 10px #9ec9ed3d;
+  border: 2px solid #dadada5b;
+  border-color: #9ec9ed52;
+}
+.required span::after {
+  content: '*';
+  color: red;
+}
